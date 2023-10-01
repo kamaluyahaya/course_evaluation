@@ -10,8 +10,10 @@ function ManageStudent(){
 const [records, setRecords] = useState([]);
 const [isLoading, setLoading] = useState(true);
 
+
+
 let count =1;
-useEffect(() => {
+useEffect(() => { 
     document.title = 'Manage Student';
   }, []);
 
